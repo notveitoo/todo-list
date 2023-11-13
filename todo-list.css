@@ -1,0 +1,52 @@
+body{
+    font-family: Arial;
+    
+}
+
+.todo-grid{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    
+}
+
+.todo-grid, .todo-grid-input{
+    row-gap: 10px;
+    column-gap: 5px;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.todo-grid-input{
+    display: grid;
+    grid-template-columns: 200px 150px 100px;
+    align-items: stretch;
+    
+}
+
+.btn-add-task{
+    background-color: green;
+}
+
+.btn-delete-task{
+    background-color: darkred;
+}
+
+.btn-show-task{
+    background-color: black;
+}
+
+.btn-add-task, .btn-delete-task, .btn-show-task{
+    border-color: transparent;
+    color: whitesmoke;
+    padding: auto;
+    cursor: pointer;
+    font-size: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+}
+
+.input-date, .input-name{
+    padding: 6px;
+    font-size: 15px;
+}
